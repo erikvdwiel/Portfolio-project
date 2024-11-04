@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 html, body {
@@ -36,17 +36,7 @@ header {
     flex-direction: column;
 }
 
-.sidebar button {
-    margin: 5px 0;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    background-color: white;
-    transition: background-color 0.3s;
-}
-
-.button {
+button {
     margin: 5px 0;
     width: 100%;
     padding: 10px;
@@ -74,7 +64,28 @@ footer {
     padding: 10px;
 }/*Met docent gemaakt*/
 
+.tekst{
+    margin-top: 30px;
+    width: 600px;
+}
+
+.img{
+    margin-right: 30px;
+}
+
 .Ervaring{
-    font-size: 20px;
+    font-size: 17px;
     width: 500px;
+}
+
+.leuk{
+    font-size: 17px;
+    width: 500px;
+}
+
+.tekstimg{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
